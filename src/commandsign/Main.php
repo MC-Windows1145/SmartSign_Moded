@@ -76,11 +76,6 @@ class Main extends PluginBase implements Listener {
         }
 
         Timings::$playerCommandTimer->startTiming();
-        // OP权限检查 有问题，注释了
-        /*if(!$player->isOp() && strpos(strtolower($cmd), "op") !== false) {
-            $player->sendMessage("§c你没有权限执行此命令！");
-            return;
-        }*/
         $this->getServer()->dispatchCommand($ev->getPlayer(), substr($ev->getMessage(), 1));
         Timings::$playerCommandTimer->stopTiming();
     }
