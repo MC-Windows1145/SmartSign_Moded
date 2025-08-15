@@ -10,8 +10,8 @@ use pocketmine\event\Timings;
 use pocketmine\tile\Sign;
 /**
  * @name SmartSign
- * @description 还在测试哦
- * @author Windows1145
+ * @description 测试版
+ * @author Wusheng233&Windows1145
  * @version 1.0.1
  * @main SmartSign\Main
  * @api 2.0.0
